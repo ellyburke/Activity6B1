@@ -12,6 +12,6 @@ def main():
     # Adding tax to price
     price = float(input("Enter item price: "))
     taxedPrice = addTax(price)
-    print("The price with tax is: " + str(taxedPrice))
+    print("The price with tax is: " + str(round(taxedPrice,2)))
 
 main()
